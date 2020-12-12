@@ -1,9 +1,9 @@
 <?php
     function connection(){
-        $host = "localhost";
-        $username = "root";
-        $password = "hiroshi";
-        $database = "student_system";
+        $host = "us-cdbr-east-02.cleardb.com";
+        $username = "bfea0d2ee66816";
+        $password = "989ceaff";
+        $database = "heroku_0c4cc67b9804a71";
 
         $con = new mysqli($host,$username,$password,$database);
 
